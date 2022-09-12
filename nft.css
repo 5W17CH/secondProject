@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body
+{   
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    width: 90%;
+    height: 38rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.boxpic
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50%;
+    margin-top: 5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.picmain
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxtext
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 40%;
+}
+
+.eth
+{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+    margin-top: 1.4em;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.eth:hover
+{
+    cursor: pointer;
+}
+
+p
+{
+    color: hsl(215, 51%, 70%);
+    margin-top: 1.4em;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.boxinfo
+{   
+    display: flex;
+    margin-top: 1.4em;
+    align-items: center;
+}
+
+.price
+{
+    margin-right: 35%;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.time
+{
+    color: hsl(215, 51%, 70%);
+}
+
+.line
+{
+    display: block;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    margin-top: 1.4em;
+}
+
+.container2
+{   
+    display: flex;
+    align-items: center;
+    margin-top: 1.4em;
+}
+
+.propic
+{   
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #fff;
+    margin-right: 1.5em;
+}
+
+.myname
+{
+    text-decoration: none;
+    color: hsl(178, 100%, 50%);
+}
